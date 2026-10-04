@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   title: "GymTray — Personalized Nutrition for Your Workouts",
   description:
     "GymTray builds a personalized meal plan around your goals, body, food preferences, and routine. Coming soon — join the waitlist for early access.",
+
+    verification: {
+      google: "<meta name="google-site-verification" content="AAWYtd7M6vQx_yTVSIiKzsUGT_FG1PEQ_vftrfU-idY" />",
+    },
 };
 
 export default function RootLayout({
