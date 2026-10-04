@@ -9,13 +9,55 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "GymTray — Personalized Nutrition for Your Workouts",
-  description:
-    "GymTray builds a personalized meal plan around your goals, body, food preferences, and routine. Coming soon — join the waitlist for early access.",
+  metadataBase: new URL("https://gymtray.vercel.app"),
 
-    verification: {
-      google: "AAWYtd7M6vQx_yTVSIiKzsUGT_FG1PEQ_vftrfU-idY",
-    },
+  title: "GymTray — Personalized Nutrition & Meal Planning",
+
+  description:
+    "GymTray helps you plan what to eat around your fitness goals, body details, food preferences, and routine. Join the waitlist for early access.",
+
+  keywords: [
+    "GymTray",
+    "personalized meal plan",
+    "personalized nutrition plan",
+    "fitness meal planner",
+    "gym diet plan",
+    "meal planning for gym",
+    "protein tracking",
+    "calorie tracking",
+    "muscle gain diet",
+    "fat loss diet",
+    "fitness nutrition",
+  ],
+
+  alternates: {
+    canonical: "/",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    type: "website",
+    siteName: "GymTray",
+    title: "GymTray — Personalized Nutrition for Your Fitness Goals",
+    description:
+      "Plan what to eat around your goals, preferences, and routine. Join the GymTray waitlist for early access.",
+    url: "https://gymtray.vercel.app/",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "GymTray — Personalized Nutrition for Your Fitness Goals",
+    description:
+      "Plan what to eat around your goals, preferences, and routine. Join the GymTray waitlist for early access.",
+  },
+
+  verification: {
+    google: "AAWYtd7M6vQx_yTVSIiKzsUGT_FG1PEQ_vftrfU-idY",
+  },
 };
 
 export default function RootLayout({
